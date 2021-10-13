@@ -1,0 +1,113 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.body {
+    margin: 0;
+    border: 1px solid grey;
+    height: 1080px;
+    width: 1200px;
+}
+
+.login {
+    background-image: url("shadow.GIF");
+    background-repeat: no-repeat;
+    background-size: 1200px 150px;
+    height: 150px;
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.bue-image {
+    padding: 10px 0 0 10px;
+    width: 600px;
+    height: 125px;
+}
+
+.login-p {
+    color: darkred;
+    font-weight: bold;
+    margin: 0;
+}
+
+.fields {
+    display: flex;
+    vertical-align: middle;
+    flex-direction: column;
+    align-items:center;
+
+}
+
+.login-btn {
+    width: 50px;
+    margin-top: 20px;
+}
+
+.form {
+    height: 150px;
+    width: 600px;
+    padding: 20px 0 0 0;
+    justify-content: center;
+    display: flex;
+}
+.input-field {
+    margin: 5px;
+}
+
+.radio {
+    margin-top: 15px;
+}
+
+.sidebar {
+    width: 300px;
+    height: 1000px;
+    background-image: url("login2.gif");
+    background-repeat: no-repeat;
+    background-size: 280px auto;
+
+}
+
+.the-one-item {
+    margin: 0;
+    padding: 100px 0 0 25px;
+}
+
+ul {
+    list-style: none; /* Remove default bullets */
+  }
+  
+  ul li::before {
+    content: "\2022";  /* Add content: \2022 is the CSS Code/unicode for a bullet */
+    color: red; /* Change the color */
+    font-weight: bold; /* If you want it to be bold */
+    display: inline-block; /* Needed to add space between the bullet and the text */
+    width: 1em; /* Also needed for space (tweak if needed) */
+    margin-left: -1em; /* Also needed for space (tweak if needed) */
+  }
+
+.actual-body {
+    display: flex;
+}
+
+.paragraph {
+    margin: 0 0 0 10px;
+}
+
+h2 {
+    color: darkred;
+    text-decoration: underline;
+    margin: 0 0 10px 10px;
+}
+
+.p-text {
+    padding: 0 10px 0 15px;
+    max-width: 970px;
+    font-size: 18px;
+    word-wrap: break-word;
+}
+
+.president {
+    padding: 0 0 0 15px;
+    font-weight: bolder;
+}

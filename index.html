@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>SLS</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
+</head>
+
+<script>
+    function login() {
+        const username = document.getElementById("username").value;
+        const password = document.getElementById("password").value;
+        if (username == "youssef.123") {
+            window.location.replace("/youssef.html")
+        } else if (username == "wael.123") {
+            window.location.replace("/wael.hmtl")
+        } else if (username == "omar.123") {
+            window.location.replace("/omar.html")
+        }
+    }
+</script>
+
+<body>
+    <div class="body">
+        <div class="login">
+            <img src="top-bue.GIF" alt="" class="bue-image">
+            <div class="form">
+                <div class="fields">
+                    <p class="login-p" class="center">..:: Login ::..</p>
+                    <div class="username">
+                        <label for="fname">User Name</label>
+                        <input type="text" id="username" name="fname" class="input-field"><br>
+                    </div>
+                    <div class="passwor">
+                        &nbsp<label for="lname"> Password</label>
+                        <input type="password" id="password" name="lname" class="input-field">
+                    </div>
+                    <img class="login-btn" src="login.gif" alt="" onclick="login()">
+                </div>
+
+                <div class="radio">
+                    <input type="radio" id="html" name="fav_language" value="HTML">
+                    <label for="html">System Users</label><br>
+                    <input type="radio" id="css" name="fav_language" value="CSS">
+                    <label for="css">Academic Staff</label><br>
+                    <input type="radio" id="javascript" name="fav_language" value="JavaScript">
+                    <label for="javascript">Student / Graduate</label><br>
+                    <input type="radio" id="javascript" name="fav_language" value="app">
+                    <label for="app">Applicant</label>
+                </div>
+            </div>
+        </div>
+
+        <div class="actual-body">
+            <div class="sidebar">
+                <ul class="the-one-item">
+                    <li>Admission Application</li>
+                </ul>
+            </div>
+            <div class="paragraph">
+                <h2>British University in Egypt</h2>
+                <p class="p-text">
+                    I hope you find the information on the BUE Website helpful whether you are a registered student, a
+                    prospective student, a visitor, or a friend. Top British universities have a worldwide reputation for educational
+                    excellence and for high standards of learning and research.<br>
+                    <br>
+                    BUE brings the best of British higher education to Egypt and the Middle East. BUE offers a unique
+                    educational experience that brings the resources found at major research universities together with personal
+                    care for every student.<br><br>
+                    BUE is a research-led university, where research plays an important role not only in the advancement of
+                    knowledge, but also in solving relevant problems that face the Egyptian and international communities.<br><br>
+                    BUE aims to provide an academic environment which encourages and draws together research, learning and
+                    teaching and to provide a broad student experience, producing graduates equipped with the tools enabling
+                    them to continue learning and developing throughout their careers. Besides the currently offered
+                    undergraduate degree programmes in Business Administration, Economics, political Science, Engineering,
+                    Informatics & Computer Science, Nursing, Dentistry, Pharmacy, Communication and Mass Media, Arts and
+                    Humanity, Law and Energy and Environmental Engineering.<br><br>
+                    BUE opened Postgraduate Programmes in: Engineering, Informatics and Business. The greatest and most
+                    rewarding investment that parents can make is to provide their sons and daughters with the best possible
+                    education. The BUE offers both an education that matches that of top universities in the UK and degrees that
+                    are accredited in Egypt and at the same time validated in the UK for most of BUE Programmes.<br><br>
+                    I wish you success in your education and life.                    
+                </p>
+                <p class="president">BUE President</p>
+            </div>
+    
+        </div>
+
+
+
+    </div>
+</body>
+
+</html>

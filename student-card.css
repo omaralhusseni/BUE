@@ -1,0 +1,98 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.body {
+    display: flex;
+}
+
+h4 {
+    margin: 0;
+}
+
+.student-card {
+    margin: 0;
+    width: 500px;
+    height: 680px;
+    padding: 5px;
+    border-right: 4px solid gray;
+}
+
+.student-name {
+    width: 480px;
+    height: 30px;
+    background-color: #b7d3e9;
+    padding: 10px;
+    border: 1px solid grey;
+    font-weight: bold;
+}
+
+.student-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 30px;
+    border: 1px solid gray;
+    height: 600px;
+    font-weight: bold;
+
+}
+
+.student-info p {
+    padding: 0;
+    margin: 0;
+}
+
+.btns {
+    margin-top: 15px;
+}
+.btn {
+    color:#d95e5a;
+    background-color: #f2f6e8;
+    padding: 1px 30px;
+}
+
+.list {
+    width: 500px;
+    font-weight: bold;
+}
+
+
+ul {
+    list-style-type: "⊡";
+    padding: 25px;
+
+}
+.special-li {
+    margin-bottom: 15px;
+    list-style-type: "⊞";
+}
+
+.list-btn {
+    border: 1px solid gray;
+    height: 0.5em;
+    width: 0.5em;
+}
+.bue-logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 600px;
+    width: 900px;
+}
+
+.footer {
+    background-color: #066bb4;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 12px;
+    border-top: 4px solid lightgray;
+}
+
+.footer p {
+    margin: 0;
+}
