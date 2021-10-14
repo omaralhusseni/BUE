@@ -36,8 +36,9 @@ h4 {
     border: 1px solid gray;
     height: flex;
     font-weight: bold;
-
+    color: purple;
 }
+
 
 .student-info p {
     padding: 0;
@@ -96,4 +97,13 @@ ul {
 
 .footer p {
     margin: 0;
+}
+
+.btns-list {
+    margin: 0 0 0 20px;
+    display: flex;
+    align-items: flex-start;
+    overflow: hidden;
+    width: 300px;
+    height: 400px;
 }
